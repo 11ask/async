@@ -1,0 +1,25 @@
+// Example 1: Basic arrow function
+const greet = () => {
+  console.log("Hello, there!");
+};
+
+greet(); // Output: Hello, there!
+
+// Example 2: Arrow function with parameters
+const multiply = (a, b) => {
+  return a * b;
+};
+
+console.log(multiply(5, 3)); // Output: 15
+
+// Example 3: Arrow function with implicit return
+const square = (num) => num * num;
+
+console.log(square(4)); // Output: 16
+
+// Example 4: Arrow function in array methods (e.g., map)
+const numbers = [1, 2, 3, 4, 5];
+
+const squaredNumbers = numbers.map((num) => num * num);
+
+console.log(squaredNumbers); // Output: [1, 4, 9, 16, 25]
